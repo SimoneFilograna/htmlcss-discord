@@ -130,17 +130,18 @@ footer{
 
 .container{
     width: 950px;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     margin: auto;
     margin-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 5rem;
     padding-bottom: 20px;
     
 }
 
 .line{
-    border-bottom: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(114, 137, 218);
+    padding-top: 2rem;
 }
 
 .second-pink{
@@ -150,7 +151,7 @@ footer{
 }
 
 .waterblue{
-    background-color: rgb(64, 174, 174);
+    /* background-color: rgb(64, 174, 174); */
     width: 20%;
     flex-grow: 1;
 }
@@ -158,22 +159,14 @@ footer{
 .lastbar{
     width: 950px;
     height: 40px;
-    background-color: aquamarine;
     display: flex;
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
+    padding-bottom: 100px;
 }
 
-.logo, .final-button{
-    font-size: 18px;
-    background-color: pink;
-    width: 50px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-}
 
 .btn{
     font-size: 1rem;
@@ -264,10 +257,34 @@ footer{
     padding-top: 1rem;
 }
 
-.second-pink>.lower-text {
+.second-pink>.lower-text, .text-index {
     color: rgb(114, 137, 218)
 }
 
 .text-footer{
+    color: white;
+}
+
+.waterblue li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list{
+    list-style: none;  
+}
+
+.footer-list li, .text-index{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.container, .waterblue {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.footer-btn{
+    background-color: rgb(102, 122, 192);
     color: white;
 }
