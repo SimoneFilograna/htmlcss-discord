@@ -229,3 +229,12 @@ footer{
     display: inline-block;
     width: 700px;
 }
+
+.lower-text{
+    font-size: 1.7rem;
+    margin-top: -20px;   
+}
+
+.lower-container{
+    padding-top: 25px;
+}
