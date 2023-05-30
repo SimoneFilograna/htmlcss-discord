@@ -104,18 +104,22 @@ section{
 
 .back-color{
     width: 100%;
-    background-color: rgb(215, 215, 215);
+    background-color: rgb(245, 245, 245);
 }
 
+
+/* inizio 4 sezione grossa */
+
 .second-grey{
-    width: 100%;
-    background-color: lightgrey;
+    /* width: 100%; */
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .big-green{
-    width: 950px;
-    height:700px;
-    background-color: green;
+    width: 1200px;
     margin: auto;
 }
 
@@ -214,4 +218,14 @@ footer{
     font-size: 1.2rem;
     line-height: 1.8rem;
     font-weight: 500;
+}
+
+.home-img{
+    display: inline-block;
+    width: 100%;
+}
+
+.img-section{
+    display: inline-block;
+    width: 700px;
 }
