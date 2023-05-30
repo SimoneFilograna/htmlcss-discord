@@ -125,7 +125,7 @@ section{
 
 footer{
     width: 100%;
-    background-color: rgb(57, 54, 54);
+    background-color: rgb(35, 39, 42);
 }
 
 .container{
@@ -144,8 +144,8 @@ footer{
 }
 
 .second-pink{
-    background-color: pink;
-    width: 20%;
+    /* background-color: pink; */
+    width: 25%;
     flex-grow: 2;
 }
 
@@ -231,8 +231,11 @@ footer{
 }
 
 .lower-text{
-    font-size: 1.7rem;
-    margin-top: -20px;   
+    font-size: 1.7rem;     
+}
+
+.bottom-margin {
+    margin-top: -20px; 
 }
 
 .lower-container{
@@ -245,4 +248,26 @@ footer{
     background-color: rgb( 114, 137, 218);
     color: white;
     margin-top: 50px;
+}
+
+.flag{
+    display: inline-block;
+    width: 10%;
+}
+
+.second-pink>.lower-text {
+    padding: 1rem 0;
+}
+
+.img-footer {
+    display: inline-block;
+    padding-top: 1rem;
+}
+
+.second-pink>.lower-text {
+    color: rgb(114, 137, 218)
+}
+
+.text-footer{
+    color: white;
 }
