@@ -288,3 +288,19 @@ footer{
     background-color: rgb(102, 122, 192);
     color: white;
 }
+
+.img-wave {
+    width: 100%;
+    filter: invert(96%);
+}
+
+.wave{
+    margin-bottom: -10px;
+}
+
+
+.bottom-img-wave {
+    width: 100%;
+    transform: scaleY(-1);
+    filter: invert(96%);
+}
