@@ -180,7 +180,7 @@ footer{
     border: none;
     padding: .5rem .8rem;
     background-color: white;
-    border-radius: 17px;
+    border-radius: 30px;
     
 }
 
@@ -196,7 +196,7 @@ footer{
     line-height: 2rem;
 }
 
-.rectangle button {
+.rectangle button, .blue {
     margin-top: 1.5rem;
     margin-right: 1rem;
     font-size: 1.3rem;
@@ -237,4 +237,12 @@ footer{
 
 .lower-container{
     padding-top: 25px;
+}
+
+/* bottono figlio della last section */
+
+.second-grey .btn {
+    background-color: rgb( 114, 137, 218);
+    color: white;
+    margin-top: 50px;
 }
